@@ -1,77 +1,59 @@
+'''Apertura de archivos 
+  open("Archivo,txt", "r")
+  
+  
+modos principales
+  
+Modo        Descripcion
+  r           Leer
+  w           Escribir (Sobrescribe)
+  a           Agregar
+  x           Crear archivo 
+  
+  
+***  Lecura de archivos
+        *archivo.read()
+        *archivo.realdile()
+        *archivo.readlines()
+        
+*** Escritura de archivos 
+
 '''
-manejo de archivos de texto
-Apertura de archivos
-   open("archivo.txt", "r")
-
-Modos Principales:
-
-Modo Descripción
-r     Leer
-w     Escribir (sobrescribe)
-a     Agregar
-x     Crear archivo
-
-***** Lectura de archivos
-    * archivo.read()
-    * archivo.readline()
-    * archivo.readlines()
-
-***** Escritura de archivos
-    * archivo.write("Texto a escribir")
-    * archivo.writelines(["Línea1\n", "Línea2\n"])
-'''
-
-
 '''
 def crear_archivo():
-    nombre=input ("Nombre del archivo: ")
-    with open(nombre,"w") as archivo: 
+    nombre=input("Nombre del archivo: ")
+    with open(nombre,"w") as archivo: #Cuando abre el archivo y dejas de usarlo, lo cierra con el with
+       
+     print("Archivo creado correctamente")
      
-     #with para que mande llamar el archivo y cuando
-     #abro el archivo y dejo de usarlo lo cierra
-     
-    print("Archivo creado correctamente")
-crear_archivo() ''' 
+crear_archivo()'''
 
 
-'''
-def escribir_archivo():
-   nombre = input("Nombre del archivo: ")
-   texto= input("Escribe el texto a guardar: ")
+def menu():
+    while True:
+        print("\n---Gestor de archivos---")
+        print("1. Crear Archivo")
+        print("2. Escribir en Archivo")
+        print("3. Agregar Texto")
+        print("4. Leer Archivo")
+        print("5. Buscar Palabra")
+        print("6. Salir")
 
-   with open(nombre, "w") as archivo:
-      archivo.write(texto)
-      
-      print("Texto guardado correctamente")  
+        opcion = input("Seleccione una ocpion: ")
 
-escribir_archivo() '''
-
-'''def agregar_texto():
-    nombre= input("Nombre del archivo: ")
-    texto=input("Texto a agregar: ")
-
-    with open(nombre, "a") as archivo:
-        archivo.write("\n" + texto)
-
-    print("Texto agregado correctamente")
-
-agregar_texto() '''
-
-''' import os
-def leer_archivo():
-    nombre= input(" Nombre del archivo: ")
-    try:
-        with open(nombre,"r") as archivo:
-            contenido= archivo.read()
-            os.system("cls")
-            print("\nContenido del archivo: ")
-            print(contenido)
-            print("|---------------------------|")
-            archivo.seek(0)
-            contenido= archivo.read()
-            print("\nContenido del archivo: ")
-            print(contenido)
-    except FileNotFoundError:
-        print("El archivo no existe")        
-leer_archivo() '''
-8
+        if opcion == "1":
+            crear_archivo()
+        elif opcion == "2":
+            escribir_archivo()
+        elif opcion == "3":
+            agregar_texto()
+        elif opcion == "4":
+            leer_archivo()
+        elif opcion == "5":
+            buscar_palabra()
+        elif opcion == "6":
+            print("Saliendo del programa...")
+            break
+        else:
+            print("Opción no válida")
+menu() 
