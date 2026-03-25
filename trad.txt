@@ -1,0 +1,4 @@
+verde,green
+comida,food
+arroz,rice
+casa,house
