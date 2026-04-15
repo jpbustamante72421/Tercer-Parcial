@@ -1,0 +1,4 @@
+juan,dkjh,852,555,Mediana,Jamón, Piña,1,120
+juan,dkjh,852,555,Mediana,,1,100
+juan,jwn,21322,584,Chica,Jamón, Piña, Champiñones,55,3850
+Juan,seis,555,21/01/2020,Chica,Jamón,4,200

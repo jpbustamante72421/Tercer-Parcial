@@ -2,3 +2,5 @@ verde,green
 comida,food
 arroz,rice
 casa,house
+noventa,ninety
+rojo,red

@@ -100,9 +100,9 @@ def imprimir():
 # ventana principal
 ventana = tk.Tk()
 ventana.title("Signos del Zodiaco")
-ventana.geometry("1200x500")
+ventana.geometry("1000x500")
 
-tk.Label(ventana, text="Datos Personales", font=("Arial", 10, "bold")).place(x=270, y=20)
+tk.Label(ventana, text="Datos Personales", font=("Arial", 10)).place(x=270, y=20)
 
 tk.Label(ventana, text="Nombre:").place(x=100, y=80)
 entrada_nombre = tk.Entry(ventana)
@@ -116,7 +116,7 @@ tk.Label(ventana, text="A. Materno:").place(x=100, y=160)
 entrada_apmaterno = tk.Entry(ventana)
 entrada_apmaterno.place(x=200, y=160)
 
-tk.Label(ventana, text="Fecha de Nacimiento", font=("Arial", 10, "bold")).place(x=250, y=210)
+tk.Label(ventana, text="Fecha de Nacimiento", font=("Arial", 10)).place(x=250, y=210)
 
 tk.Label(ventana, text="Día:").place(x=150, y=260)
 entrada_dia = tk.Entry(ventana, width=5)
@@ -140,7 +140,7 @@ tk.Radiobutton(ventana, text="Femenino", variable=sexo, value="Femenino").place(
 btn = tk.Button(ventana, text="Imprimir", command=imprimir)
 btn.place(x=260, y=380)
 
-tk.Label(ventana, text="Resultado", font=("Arial", 10, "bold")).place(x=800, y=50)
+tk.Label(ventana, text="Resultado", font=("Arial", 10)).place(x=800, y=50)
 
 resultado = tk.Label(ventana, text="", font=("Arial", 11), justify="left")
 resultado.place(x=750, y=100)
