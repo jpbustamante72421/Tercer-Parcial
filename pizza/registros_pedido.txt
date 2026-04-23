@@ -1,0 +1,8 @@
+Alex,Torres Landa,6666666666666666,Grande,Jamón + Piña,37,5180
+pedro,wertyui,12345678,Mediana,Piña + Champiñones,1,100
+pedro,wertyui,12345678,Grande,Jamón + Piña + Champiñones,1,150
+juan,fghjkl,2345678,Chica,Jamón + Piña + Champiñones,1,70
+juan,5 de enero,4778955147,Grande,Piña + Champiñones,2,280
+Jonathan,Centro,4776767676,Grande,Jamón + Piña + Champiñones,85,12750
+Jonathan,Centro,4776767676,Mediana,Jamón + Piña + Champiñones,85,9350
+Jonathan,Centro,4776767676,Chica,Jamón + Piña + Champiñones,789,55230

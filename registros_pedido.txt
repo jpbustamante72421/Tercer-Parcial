@@ -2,3 +2,12 @@ juan,dkjh,852,555,Mediana,Jamón, Piña,1,120
 juan,dkjh,852,555,Mediana,,1,100
 juan,jwn,21322,584,Chica,Jamón, Piña, Champiñones,55,3850
 Juan,seis,555,21/01/2020,Chica,Jamón,4,200
+Rafá,Seis,47798089,12/12/12,Mediana,Jamón, Piña,2,200
+Jonathan,seis,5454,25/58/78,Grande,Jamón, Champiñones,2,280
+Juan,Seis,4775236996,25/85/96,Mediana,Jamón, Piña,2,200
+Juan,calle dos,4778900988,25/01/01,Chica,Jamón,1,50
+Sebastian,dos,77789563214,Chica,Piña,2,100
+Alex,Seis,47785225,Grande,Piña,5,650
+Angel,Calle Juarez,4777894561,Mediana,Jamón, Piña, Champiñones,25,2750
+Juan,SEis,78965412,Grande,Jamón + Piña,5,700
+Juan,rrr,2323,Grande,Jamón + Piña,89,12460
